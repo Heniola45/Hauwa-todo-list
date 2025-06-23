@@ -3,3 +3,67 @@
     padding: 0;
     
 }
+body {
+    font-family: Proxima;
+    background-color: #f0f0f0;
+    padding: 2rem;
+  }
+  
+  .main-container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    align-items: center; 
+    margin: 3rem auto;
+    margin-top: 100px;
+    border-radius: 16px;
+  }
+
+  h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: rgb(83, 7, 83);
+  }
+
+  p{
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+  }
+  
+  #enterTask {
+    width: 70%;
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  #submitBtn {
+    padding: 0.8rem 1.5rem;
+    background-color: rgb(83, 7, 83);
+    border: none;
+    color: white;
+    border-radius: 8px;
+  }
+
+  #submitBtn:hover {
+    background-color: rgb(73, 8, 73);
+    cursor: pointer;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
